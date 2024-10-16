@@ -1,0 +1,29 @@
+/* .projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-start
+}
+
+.project_img {
+  width: calc(33.33% - 10px);
+  box-sizing: border-box;
+} */
+
+.projects {
+  display: flex;
+  width: 100%;
+}
+
+.projects div {
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.project_img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+

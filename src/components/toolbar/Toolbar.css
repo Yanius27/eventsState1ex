@@ -1,0 +1,24 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filterBtn {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0;
+
+  font-size: 12px;
+
+  text-align: center;
+}
+
+.filterBtn_active {
+  background-color: gray;
+  border-radius: 0;
+  
+  color: white;
+
+  font-size: 11px;
+}
